@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Патерни")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ea6e5c4b0801d2e4e8bf85813141a12aa742480b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Патерни")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Патерни")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

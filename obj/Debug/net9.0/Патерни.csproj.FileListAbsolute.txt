@@ -12,3 +12,4 @@ C:\Users\User\OneDrive\Desktop\Патерни\obj\Debug\net9.0\refint\Патер
 C:\Users\User\OneDrive\Desktop\Патерни\obj\Debug\net9.0\Патерни.pdb
 C:\Users\User\OneDrive\Desktop\Патерни\obj\Debug\net9.0\Патерни.genruntimeconfig.cache
 C:\Users\User\OneDrive\Desktop\Патерни\obj\Debug\net9.0\ref\Патерни.dll
+C:\Users\User\OneDrive\Desktop\Патерни\obj\Debug\net9.0\Патерни.sourcelink.json
