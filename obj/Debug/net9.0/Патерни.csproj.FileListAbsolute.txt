@@ -1,0 +1,14 @@
+C:\Users\User\OneDrive\Desktop\Патерни\bin\Debug\net9.0\Патерни.exe
+C:\Users\User\OneDrive\Desktop\Патерни\bin\Debug\net9.0\Патерни.deps.json
+C:\Users\User\OneDrive\Desktop\Патерни\bin\Debug\net9.0\Патерни.runtimeconfig.json
+C:\Users\User\OneDrive\Desktop\Патерни\bin\Debug\net9.0\Патерни.dll
+C:\Users\User\OneDrive\Desktop\Патерни\bin\Debug\net9.0\Патерни.pdb
+C:\Users\User\OneDrive\Desktop\Патерни\obj\Debug\net9.0\Патерни.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\OneDrive\Desktop\Патерни\obj\Debug\net9.0\Патерни.AssemblyInfoInputs.cache
+C:\Users\User\OneDrive\Desktop\Патерни\obj\Debug\net9.0\Патерни.AssemblyInfo.cs
+C:\Users\User\OneDrive\Desktop\Патерни\obj\Debug\net9.0\Патерни.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\Desktop\Патерни\obj\Debug\net9.0\Патерни.dll
+C:\Users\User\OneDrive\Desktop\Патерни\obj\Debug\net9.0\refint\Патерни.dll
+C:\Users\User\OneDrive\Desktop\Патерни\obj\Debug\net9.0\Патерни.pdb
+C:\Users\User\OneDrive\Desktop\Патерни\obj\Debug\net9.0\Патерни.genruntimeconfig.cache
+C:\Users\User\OneDrive\Desktop\Патерни\obj\Debug\net9.0\ref\Патерни.dll
