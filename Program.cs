@@ -96,19 +96,19 @@ public interface ISubscriber
     void Notify(string article);
 }
 
-public class SportsBlog
+public class NewsBlog
 {
     private readonly List<ISubscriber> _subscribers = new();
     private readonly string _name;
 
-    public SportsBlog(string name) => _name = name;
+    public NewsBlog(string name) => _name = name;
 
     public void Subscribe(ISubscriber subscriber) => _subscribers.Add(subscriber);
     public void Unsubscribe(ISubscriber subscriber) => _subscribers.Remove(subscriber);
 
     public void PublishArticle(string title)
     {
-        Console.WriteLine($"Блог {_name} опублікував спортивну статтю: {title}");
+        Console.WriteLine($"Блог {_name} опублікував новину: {title}");
         foreach (var subscriber in _subscribers)
         {
             subscriber.Notify(title);
@@ -116,11 +116,11 @@ public class SportsBlog
     }
 }
 
-public class SportsFan : ISubscriber
+public class NewsFan : ISubscriber
 {
     private readonly string _name;
-    public SportsFan(string name) => _name = name;
-    public void Notify(string article) => Console.WriteLine($"{_name} отримав сповіщення: нова спортивна стаття - \"{article}\"");
+    public NewsFan(string name) => _name = name;
+    public void Notify(string article) => Console.WriteLine($"{_name} отримав сповіщення: нова новина - \"{article}\"");
 }
 
 public class Program
@@ -149,11 +149,11 @@ public class Program
         Console.WriteLine();
 
         Console.WriteLine("=== Observer ===");
-        var blog = new SportsBlog("SportLife");
+        var blog = new NewsBlog("SportLife");
 
-        var fan1 = new SportsFan("Андрій");
-        var fan2 = new SportsFan("Марія");
-        var fan3 = new SportsFan("Олег");
+        var fan1 = new NewsFan("Андрій");
+        var fan2 = new NewsFan("Марія");
+        var fan3 = new NewsFan("Олег");
 
         blog.Subscribe(fan1);
         blog.Subscribe(fan2);
@@ -162,5 +162,18 @@ public class Program
         blog.PublishArticle("10 найкращих голів Ліги чемпіонів");
         blog.PublishArticle("Огляд фіналу NBA 2025");
         blog.PublishArticle("Українські спортсмени на Олімпіаді");
+        Console.WriteLine();
+
+        // Демонстрація ще одного блогу про фітнес
+        Console.WriteLine("=== Observer (Ще один приклад) ===");
+        var fitnessBlog = new NewsBlog("FitToday");
+        var fitnessFan1 = new NewsFan("Анна");
+        var fitnessFan2 = new NewsFan("Богдан");
+
+        fitnessBlog.Subscribe(fitnessFan1);
+        fitnessBlog.Subscribe(fitnessFan2);
+
+        fitnessBlog.PublishArticle("Топ 5 вправ для пресу");
+        fitnessBlog.PublishArticle("Рецепти здорових сніданків");
     }
 }
